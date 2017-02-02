@@ -1,0 +1,8 @@
+<ul class="update-items">
+  <li *ngFor="let item of updateItems">
+    <h2>{{item.content}}</h2>
+    <p>{{item.date}} posted by: {{item.author}}</p>
+    <h4><a href="{{item.link}}">{{item.link}}></a></h4>
+    <h4>tags: {{item.tags}}</h4>
+  </li>
+</ul>

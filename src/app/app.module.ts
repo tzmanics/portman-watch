@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { UpdateBlocksComponent } from './update-blocks/update-blocks.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UpdateBlocksComponent
   ],
   imports: [
     BrowserModule,
