@@ -1,5 +1,6 @@
 export class UpdateItem {
-  date: Date;
+  date: string;
+  //TODO: handle date
   content: string;
   author: string;
   link: string;
