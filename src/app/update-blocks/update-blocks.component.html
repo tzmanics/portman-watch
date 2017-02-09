@@ -1,8 +1,12 @@
 <ul class="update-items">
   <li *ngFor="let item of updateItems">
-    <h2>{{item.content}}</h2>
-    <p>{{item.date}} posted by: {{item.author}}
-    <a href="{{item.link}}">LINK</a></p>
+    <p class="headline">{{item.headline}}</p>
+    <p class="postInfo">{{item.date}} posted by: {{item.author}}</p>
+    <p>{{item.context}}</p>
+    <p class="call-to-action">{{item.callToAction}}
+    <a href="tel:614-469-6774">614-469-6774</a> or
+    <a href="tel:202-224-3353">202-224-3353</a></p>
+    <p><a href="{{item.link}}">SOURCE LINK</a></p>
     <p>tags: {{item.tags}}</p>
   </li>
 </ul>

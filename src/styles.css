@@ -1,41 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css?family=Amiri|Oswald:300,700');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Playfair+Display:400,700,900');
 
 html * {
+  min-width: 300px;
   margin: 0;
 }
 
-body {
-  min-width: 400px;
-}
-
 h1 {
-  font-family: Oswald;
-  font-weight: 700;
-  font-size: 300%;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 350%;
   line-height: 90%;
-  margin: .25em 0 0 .25em;
 }
 
-h2 {
-  line-height: 95%;
+p {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  margin-bottom: 1em;
+  font-size: 70%;
 }
 
-h3 {
-  font-family: Amiri;
-  font-size: 76%;
-  margin: 0 1.15em;
+.headline {
+  font-weight: 700;
+  font-size: 120%;
+  border-bottom: solid;
+  margin-bottom: 0;
+}
+
+.call-to-action {
+  font-weight: 700;
+  color: red;
+}
+
+header {
+  width: 250px;
+  margin: 0 auto;
 }
 
 ul {
   list-style: none;
   padding: 0;
+  width: 50%;
+  min-width: 400px;
+  margin: 0 auto;
 }
 
 li {
-  width: 70%;
-  min-width: 100px;
-  background-color: azure;
   border: 1px solid lightgray;
   margin: 1em auto;
   padding: 1em;
